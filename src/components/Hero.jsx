@@ -1,8 +1,6 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-import { useEffect, useState } from "react";
-import { events } from "@react-three/fiber";
 
 const Hero = () => {
   return (
@@ -22,7 +20,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop 3D Visuals , User <br className="sm:block hidden" />{" "}
-            Interfaces and We Applictaions
+            Interfaces and Web Applictaions
           </p>
         </div>
       </div>
