@@ -26,6 +26,7 @@ const Hero = () => {
       </div>
       {/* picture  */}
       <ComputersCanvas />
+
       {/* mouse  */}
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center item center">
         <a href="#about">
